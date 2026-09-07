@@ -145,7 +145,7 @@ else:
     print("can drive")
 
 
-#comditioanl statement
+#comditioanl statement question 
 #writa a programme to manage the grades of studnent on the basis of marks
 marks =int(input( "enter students marks :"))
 if( marks >= 90):
