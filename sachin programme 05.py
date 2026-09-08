@@ -9,7 +9,7 @@ dict = {
 
 print(dict)
 
-# 2nd e,.g 
+# 2nd e.g 
 info = {
     "name" : "sachin",
     "subject" : ["mathematics" , "chemistry" , "PHYSICS"], 
