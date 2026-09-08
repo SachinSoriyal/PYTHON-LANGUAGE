@@ -188,17 +188,17 @@ for i in range(2, 10):
 for i in range(2 , 10 , 2 ):
     print(i)
 
-# if we only want to print even no. 
+# if we only want to print even no. (using for loop)
 for i in range(2 , 20 , 2):
     print(i)
     
-# if we only want to print odd no.
+# if we only want to print odd no. (using for loop)
 for i in range(1,20,2):
     print(i)
 
 
 
-#  Pass statement 
+#  Pass statement  
 for i in range(5):
     pass
 print("always happy")
