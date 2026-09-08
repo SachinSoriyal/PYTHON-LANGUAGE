@@ -10,7 +10,7 @@
 # print(s2.name)
 
 
-# #  we make many cars and want the color of all car is same and band is BMW
+# #  we make many cars and want the color of all car is same and brand is(BMW)
 # class Car:
 #     color = "blue"
 #     brand = "BMW"
