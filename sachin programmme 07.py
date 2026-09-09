@@ -3,11 +3,9 @@ def calc_sum(a,b):
     return a + b
 
 
-
 # 1
 a = calc_sum(2,5)
 print(a)
-
 
 
 # 2
@@ -15,11 +13,9 @@ b = calc_sum(5,4)
 print(b)
 
 
-
 # 3
 c = calc_sum(124,23231)
 print(c)
-
 
 
 #  for hello 
@@ -42,15 +38,14 @@ def calc_avg(a,b,c):
     print(avg)
     return avg
 
-
 calc_avg(59,69,89)
-
 
 
 #  Types of function
 # 01 built in system 
 print("sachin")
 print("singh")
+
 
 #  or 
 print("sachin ", end = " ")  #sep =  " "
@@ -65,13 +60,13 @@ def cal_prod(a=1 , b=1):
 
 cal_prod()
 
+
 # or 
 def cal_prod(a , b= 1):
     print(a*b)
     return a * b 
 
 cal_prod(1)
-
 
 
 #      RECURSION
@@ -87,7 +82,6 @@ show(5)
 show(3)
 show(1)
 show(0)
-
 
 
 # return n!
