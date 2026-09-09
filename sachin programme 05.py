@@ -9,6 +9,7 @@ dict = {
 
 print(dict)
 
+
 # 2nd e.g 
 info = {
     "name" : "sachin",
@@ -67,6 +68,7 @@ student = {
     
 print(student)
 print(student["subject"])
+
 
 # we create a dictionary into a dictionary  so it is known as "NESTED DICTIONARY" 
 # if we want to axis the marks of  a particular subject 
@@ -134,6 +136,7 @@ student = {
 } 
 print(student.items())
 print(list(student.items()))
+
 
 #  we can also access these tuples individually
 student = {
@@ -216,10 +219,12 @@ new_dict ={ "name" : "krishna", "age" : 16 }
 student.update(new_dict)
 print(student)
 
+
 # set in python 
 bunch = {1 , 2, 3, 4,"poonam" , "sachin"}
 print(bunch)
 print(type(bunch))
+
 
 #        OR 
 group = { 1 , 2 , 3 , 2 , 2 , "sachin" , "sachin" }
@@ -231,6 +236,7 @@ print(len(group))
 collection = set()
 print(collection)
 print(type(collection))
+
 
 # set methods 
 # 01 ) add method   [ in this method we cannot add a list or a dictionary]
@@ -279,7 +285,6 @@ print(set1)
 print(set2)
 
 
-
 #        OR 
 set1 = { "sachin" , "abhay" , "aman" }
 set2 = { "sachin" , "deepak" , "lucky"}
@@ -302,4 +307,3 @@ set2 = { "sachin" , "deepak" , "lucky"}
 print(set1.intersection(set2))
 print(set1)
 print(set2)
-
