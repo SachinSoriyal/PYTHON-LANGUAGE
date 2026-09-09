@@ -12,17 +12,17 @@ print(acc1.acc_pass)
 # private attributes  ( focus on the change in line 16 and compare it with above code)
 # It(2nd code) shows error so when you run programme so comment out this first
 
-# class Account:
-#     def __init__(self,acc_no,acc_pass):
-#         self.acc_no = acc_no
-#         self.__acc_pass = acc_pass
+class Account:
+    def __init__(self,acc_no,acc_pass):
+        self.acc_no = acc_no
+        self.__acc_pass = acc_pass
         
 
         
         
-# acc1 = Account("12345","ABCDE")
-# print(acc1.acc_no)
-# print(acc1.__acc_pass)
+acc1 = Account("12345","ABCDE")
+print(acc1.acc_no)
+print(acc1.__acc_pass)
 
 
 #  for reset pass 
@@ -87,8 +87,6 @@ print(car2.start())
 print(car1.color)
 
 
-
-
   #  eg of inheritance  (multilevel inheritance)
 class Car:
     color = "black"
@@ -126,7 +124,6 @@ c1 = C()
 print(c1.varC)
 print(c1.varB)
 print(c1.varA)
-
 
 
 #  super method 
@@ -189,6 +186,7 @@ class Student:
 stu1 = Student(90,98,97)
 print(stu1.percentage)
 
+
 # now i realised that i want to chamge the marks of phy 
 class Student:
     def __init__(self,phy,chy,math):
@@ -203,6 +201,7 @@ print(stu1.percentage)
 stu1.phy = 99
 print(stu1.phy)
 print(stu1.percentage)
+
 
 #  now no. is easily change but  percentage is still remains unchanged so solve it
 class Student:
@@ -225,7 +224,6 @@ stu1.calcpercentage()
 print(stu1.percentage)
 
 
-
 # property method
 class Person:
     def __init__(self,phy,chy,math):
@@ -243,7 +241,6 @@ print(stu1.percentage)
 
 stu1.phy = 99
 print(stu1.percentage)
-
 
 
 # polymorphism  (operator overloading)
