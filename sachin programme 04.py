@@ -10,14 +10,17 @@ print(type(marks))
 marks = [56,67,58,78,89]
 print(marks[0])
 
+
 # length in list 
 marks = [45 , 67 , 68 , 78 , 89]
 print(len(marks))
+
 
 ## we can store different types of element in python List 
 student = [ 98 , "sachin" , 18 ,"Gairain"]
 print(student[0])
 print(type(student[0]))
+
 
 #  #Item assignment
 student = [98 , "sachin" , 18.7 , "Gairsain"]
@@ -52,10 +55,12 @@ list = [2 , 1 , 3 , 5 , 4]
 list.sort()
 print(list)
 
+#02
 list = [4,3,5,1,2]
 print(list.append(4))
 print(list.sort())
 print(list)
+
 
 #eg. by fruit
 list = ["banana" , "litchi" , "apple"]
@@ -117,12 +122,12 @@ list.pop(2)
 print(list)
 
 
-
 #  copy method
 list = [1 ,2 ,3 ,4 ,5]
 list.copy()
 print(list.copy())
 print(list)
+
 
 # count method { TO COUNT THE OCCURENCE OF A PARTICULAR ELEMENT}
 list = [1 ,2 ,3 ,3 ,2 ,1]
@@ -130,7 +135,6 @@ list.count(1)
 print(list.count(1))
 
 
- 
 #  TUPLES 
 tup = (12 ,24 ,36 ,48 ,60)
 print(type(tup))
@@ -143,7 +147,7 @@ print(tup[0])
 print(tup[1])
 
 
-# 
+# #
 tup = ()
 print(type(tup))
 print(tup)
@@ -192,7 +196,6 @@ print(tup)
 print(type(tup))
 
 
-
 #  slicing  in the tuple 
 tup = ( 1 , 2 , 3 , 4 , 5)
 print(tup[0:3])
@@ -211,12 +214,13 @@ print(tup.index(3))
 tup = ( 2 , 4 , 3 , 2 , 4 )
 print(tup.count(2))
 
+
 # or 
 tup = ("sachin" , "abhay" , "kanak" , "sonam" , "sachin")
 print(tup.count("sachin"))
 
 
-# palindrome 
+# palindrome (it is a conceptr which is same if we start it from starting as well as ending)
 list = [ 1 , 2 , 3 ]
 list.copy()
 print(list)
