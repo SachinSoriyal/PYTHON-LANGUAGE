@@ -8,6 +8,7 @@ while count <= 5 :
     
 print(count)
 
+
 #      or
 i = 1 
 while i <= 5 :
@@ -71,8 +72,6 @@ while i < len(num):
 print("end of loop")
 
 
-
-
 #        CONTINUE
 i = 0 
 while i <= 5:
@@ -81,8 +80,6 @@ while i <= 5:
         continue  
     print(i)
     i += 1
-
-
 
 
 #  we want to skip  even numbers only want to print odd numbers 
@@ -129,7 +126,6 @@ for char in str:
     print(char)
 
 
-
 #  for loop with else
 str = "sachin" 
 for char in str:
@@ -151,7 +147,6 @@ for char in str:
 print("end")
 
 
-
 #            RANGE
 print(range(5))
 
@@ -162,13 +157,11 @@ print(seq[0])
 print(seq[1])
 
 
-
        Or
 seq = range(10)
 i = 0
 for i in seq:
     print(i)
-    
     
     
 #         or 
@@ -179,23 +172,26 @@ for i in range(10):
 # 1st 
 for i in range(10):
     print(i)
-    
+
+
 #  2nd 
 for i in range(2, 10):
     print(i)
-    
+
+
 # 3rd 
 for i in range(2 , 10 , 2 ):
     print(i)
 
+
 # if we only want to print even no. (using for loop)
 for i in range(2 , 20 , 2):
     print(i)
-    
+
+
 # if we only want to print odd no. (using for loop)
 for i in range(1,20,2):
     print(i)
-
 
 
 #  Pass statement  
