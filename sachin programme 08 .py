@@ -5,13 +5,13 @@ print(data)
 print(type(data))
 f.close()
 
+
 # reading a file
 f = open("demo.txt","rt")
 data = f.read(3)
 print(data)
 print(type(data))
 f.close()
-
 
 
 # or 
@@ -32,11 +32,13 @@ f.write("I want to learn javascript")
 
 f.close()
 
+
 #  as apend 
 f = open("demo.txt","a")
 f.write("I will learn c++")
 
 f.close()
+
 
 # if we want to write the sentence in next line or print new sentence
 f = open("demo.txt","a")
@@ -47,19 +49,21 @@ f.close()
 
 #python automatically created file for us 
 file = open("sample file" , "a")
-file.close
+file.close()
 
 
 #  eg of "r+"
 f = open("demo.txt","r+")
 f.write("i live in dehradun")
-f.close
+f.close()
+
 
 #  if we want to read   (ponter in stream)
 f = open("demo.txt","r+")
 f.write("i live in dehradun")
 print(f.read())
-f.close
+f.close()
+
 
 #  in w+ file is truncate 
 f = open("demo.txt","w+")
@@ -84,6 +88,7 @@ with open("demo.txt","r") as f :
 #  if we write
 with open("demo.txt","w") as f:
     f.write("I am cool")
+
 
 # deleting a file 
 import os 
