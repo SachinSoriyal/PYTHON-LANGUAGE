@@ -1,4 +1,4 @@
-# file I/O in python
+# file I/O in python (file input / output)
 f = open("demo.txt","r")
 data = f.read()
 print(data)
