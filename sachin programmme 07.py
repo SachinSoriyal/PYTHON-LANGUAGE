@@ -1,4 +1,4 @@
-# functions
+# functions (It means the code design that perform specific Task)
 def calc_sum(a,b):
     return a + b
 
