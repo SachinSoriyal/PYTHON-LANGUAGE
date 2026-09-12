@@ -92,5 +92,4 @@ with open("demo.txt","w") as f:
 
 # deleting a file 
 import os 
-
 os.remove("sample file")
