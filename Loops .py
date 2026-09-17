@@ -9,7 +9,7 @@ while count <= 5 :
 print(count)
 
 
-#      or
+#      or 2nd method
 i = 1 
 while i <= 5 :
     print("sachin")
