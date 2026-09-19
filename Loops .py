@@ -1,5 +1,5 @@
 #          LOOPS 
-# Take an eg. 
+# Take some example 
 #  we want to print "Hello" 10 times 
 count = 1
 while count <= 5 :
