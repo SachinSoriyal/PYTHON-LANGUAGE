@@ -13,7 +13,7 @@ print(dict)
 # 2nd e.g 
 info = {
     "name" : "sachin",
-    "subject" : ["mathematics" , "chemistry" , "PHYSICS"], 
+    "subject" : ["mathematics" , "chemistry" , "PHYSICS","english"]
     "topics" : ("dictionary" , "sets"),
     "college" : "DBUU", 
     "class" : 12 
