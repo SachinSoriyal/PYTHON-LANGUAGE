@@ -1,4 +1,4 @@
-# create a grade system (own)
+# question 1: create a grade system (own) at last, your name must be printed 
 rint(                   "Grade Program"               )
 
 Subject1 = int(input("enter the first Subject marks:"))
@@ -26,3 +26,17 @@ else:
     
     
 print(                 "Sachin Singh"        )
+
+
+
+# question 2: create a programme to find the given number is odd or even
+n = int(input("enter the numbe"))
+if n % 2 ==0:
+  print("Given number is even")
+elif n % 2 != 0:
+  print("Given number is odd")
+else:
+  print("invalid")
+
+
+print("Sachin Singh")
