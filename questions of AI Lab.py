@@ -25,7 +25,7 @@ else:
     print("Fail")
     
     
-print(                 "Sachin Singh"        )
+print(                 "Sachin Singh" )
 
 
 
