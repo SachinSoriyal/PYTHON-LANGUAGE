@@ -45,3 +45,5 @@ print("Sachin Singh")
 # each work is done  for documenting we use AI is deepsea 
 # for coding claude 
 # Use different AI for different Task 
+#apart from it Sir told us to solve question of Hackerrank
+Clear your each topics like a teacher so you are enable to explain to others
