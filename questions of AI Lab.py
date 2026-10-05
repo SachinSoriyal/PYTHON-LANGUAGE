@@ -38,5 +38,10 @@ elif n % 2 != 0:
 else:
   print("invalid")
 
-
 print("Sachin Singh")
+
+
+# question 3: how AI agent work :
+# each work is done  for documenting we use AI is deepsea 
+# for coding claude 
+# Use different AI for different Task 
