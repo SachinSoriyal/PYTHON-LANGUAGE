@@ -24,8 +24,7 @@ elif Total_percentage >=33 and Total_percentage <=50:
 else:
     print("Fail")
     
-    
-print(                 "Sachin Singh" )
+print("Sachin Singh" )
 
 
 
