@@ -1,7 +1,7 @@
  #lists
 # eg. we want to stores the marks of students in a list 
 # one method for the above problem solution
-marks = [89.8 ,87.9 ,76.6 ,56.8 , 67.8]
+marks = [83.4,87.5,76.5,73.5,90.5]
 print(marks)
 print(type(marks))
 
