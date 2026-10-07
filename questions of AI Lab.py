@@ -45,4 +45,5 @@ print("Sachin Singh")
 # for coding claude 
 # Use different AI for different Task 
 #apart from it Sir told us to solve question of Hackerrank
+# make your project to execute your learning
 # Clear your each topics like a teacher so you are enable to explain to others
