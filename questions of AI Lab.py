@@ -47,3 +47,4 @@ print("Sachin Singh")
 #apart from it Sir told us to solve question of Hackerrank
 # make your project to execute your learning
 # Clear your each topics like a teacher so you are enable to explain to others
+# do eveeryday documenting what you learn new that day
