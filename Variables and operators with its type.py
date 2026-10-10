@@ -5,6 +5,7 @@ print(name)
 print(age)
 print(price)
 
+
 # (variable store)
 name = "ajjju"
 age = 13
@@ -38,12 +39,14 @@ print(name1)
 print(name2)
 print(name3)
 
+
 # (float data type)
 value1 = 45.6
 value2 = 98.18
 
 print(type(value1))
 print(type(value2))
+
 
 # (boolean & none data type)
 age =  23 
@@ -52,17 +55,20 @@ a = None
 print(type(old))
 print(type(a))
 
+
 # print SUM
 a = 12
 b = 26
 sum = a + b 
 print(sum)
 
+
 # print SUBTRACTION
 a = 12345
 b = 1234
 subtraction = a - b
 print(subtraction)
+
 
 # comment in python 
 print("sachin")
@@ -80,6 +86,7 @@ print(a / b)
 print(a % b )
 print(a ** b)
 
+
 # relational operators
 a = 60
 b = 80
@@ -90,10 +97,12 @@ print(a > b)
 print(a >=b)
 print(a <=b)
 
+
 # assignment operators 
 num = 40
 num = num + 40
 print("num:",num)
+
 
 #second way
 num  = 40
@@ -106,15 +115,18 @@ num = 70
 num -=40
 print(num)
 
+
 # multiply equal to operator 
 num = 30
 num *= 40
 print(num)
 
+
 # divide equal to operator
 num = 50
 num /= 10
 print(num)
+
 
 # remainder equal to operator 
 num = 50
@@ -127,9 +139,11 @@ num = 40
 num**= 4
 print(num)
 
+
 # logical operators
 print(not True)
 print(not False)
+
 
 # second method of logical operators
 a = 30
