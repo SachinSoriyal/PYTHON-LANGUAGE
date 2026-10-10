@@ -65,7 +65,7 @@ p1 = Person()
 print(p1.welcome())
 
 
-#  eg of inheritance
+#  eg of inheritance (Car systen)
 class Car:
     color = "black"
     @staticmethod
