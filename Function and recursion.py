@@ -3,6 +3,7 @@ def calc_sum(a,b):
     return a + b
 
 
+
 # 1
 a = calc_sum(2,5)
 print(a)
