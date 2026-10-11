@@ -9,4 +9,17 @@ Division = number1 / number2
 multiplication = number1 * number2
 modulus = number1 % number2
 
+print("addition is :",addition)
+print("subtraction is :",subtraction)
+print("multilication is :",multiplication)
+if number2 != 0:
+  print("division is :",division)
+elif number2 == 0:
+  print("not divisible because denominator is zero")
+if number2 != 0:
+  print("remainder is :",remainder)
+elif number2 ==0:
+  print("invalid syntax")
+
+
 
