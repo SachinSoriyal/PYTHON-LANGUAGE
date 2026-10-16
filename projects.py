@@ -23,3 +23,4 @@ elif number2 ==0:
 
 
 
+#  Guessing the number given by user:
