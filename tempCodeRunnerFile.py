@@ -1,2 +1,5 @@
 
-# subject1 = int(input("enter the first ubject  marks"))
+      print("Grade c")
+elif total_percentage >= 33 and total_percentage <= 50:
+      print("Pass")
+else:

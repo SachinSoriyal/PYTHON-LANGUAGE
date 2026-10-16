@@ -24,11 +24,11 @@
 
 #  Grade System of the student:
 
-subject1 = int(input("enter the first subject  marks: "))
-subject2 = int(input("enter the second subject  marks: "))
-subject3 = int(input("enter the third subject  marks: "))
-subject4 = int(input("enter the fourth subject  marks: "))
-subject5 = int(input("enter the fifth subject  marks: "))
+subject1 = int(input())
+subject2 = int(input())
+subject3 = int(input())
+subject4 = int(input())
+subject5 = int(input())
 
 obtain_marks = subject1 + subject2 + subject3 + subject4 + subject5
 Maximum_marks = 500
@@ -47,4 +47,5 @@ elif total_percentage >= 33 and total_percentage <= 50:
 else:
       print("fail")
 
-#  Guessing the number given by user:
+# #  Guessing the number given by user:
+# n = int(input())
