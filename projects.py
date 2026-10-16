@@ -30,5 +30,21 @@ subject3 = int(input("enter the third subject  marks"))
 subject4 = int(input("enter the fourth subject  marks"))
 subject5 = int(input("enter the fifth subject  marks"))
 
+obtain_marks = subject1 + subject2 + subject3 + subject4 + subject5
+Maximum_marks = 500
+total_percentage = (obtain_marks * 100) / Maximum_marks 
+
+if total_percentage >= 90 and total_percentage <= 100:
+      print("Grade A+")
+elif total_percentage >= 80 and total_percentage <= 90:
+      print("grade A")
+elif total_percentage >=65 and total_percentage <= 80:
+      print("Grade B")
+elif total_percentage >=50 and total_percentage <= 65:
+      print("Grade c")
+elif total_percentage >= 33 and total_percentage <= 50:
+      print("Pass")
+else:
+      print("fail")
 
 #  Guessing the number given by user:
