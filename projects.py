@@ -22,5 +22,7 @@ elif number2 ==0:
   print("invalid syntax")
 
 
+#  Grade System of the student:
 
+subject1 = int(input("enter the first ubject  marks"))
 #  Guessing the number given by user:
