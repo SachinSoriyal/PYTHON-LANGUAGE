@@ -1,4 +1,5 @@
 #          LOOPS 
+# Loops means repetetion
 # Take some example 
 #  we want to print "Hello" 10 times 
 count = 1
