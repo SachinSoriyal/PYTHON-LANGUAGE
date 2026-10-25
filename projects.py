@@ -75,7 +75,7 @@
 
 # Rock paper Scissor gaming 
 
-Possibilities = ["Rock","Paper","scissor"]
+# Possibilities = ["Rock","Paper","scissor"]
 
 
 # #  Guessing the number given by user:
