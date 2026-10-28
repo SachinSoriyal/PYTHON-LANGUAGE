@@ -75,8 +75,9 @@
 
 # Rock paper Scissor gaming 
 
-# Possibilities = ["Rock","Paper","scissor"]
-
+Possibilities = ["Rock","Paper","scissor"]
+while enter :
+  print(Possibilities)
 
 # #  Guessing the number given by user:
 # n = int(input())
