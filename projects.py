@@ -74,12 +74,12 @@
 
 
 # Rock paper Scissor gaming 
+import random
+choices = [rock,paper,scissor]
+user = input("enter  rock ,paper ,scissor:"].lower()
+computer 
 
-Possibilities = ["Rock","Paper","scissor"]
-while enter :
-  print(Possibilities)
-
-# #  Guessing the number given by user:
+#  #  Guessing the number given by user:
 # n = int(input())
 # if n == n:
 #       print("the passward is right")
