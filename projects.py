@@ -77,7 +77,7 @@
 import random
 choices = [rock,paper,scissor]
 user = input("enter  rock ,paper ,scissor:"].lower()
-computer 
+computer = random.choice(choices)
 
 #  #  Guessing the number given by user:
 # n = int(input())
